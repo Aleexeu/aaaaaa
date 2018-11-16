@@ -9,7 +9,7 @@ bot.on('guildMemberAdd', member =>
 );
 
 bot.on('guildMemberAdd', member => {
-    if (member.guild.id !== "476923523617783808") return;
+    if (member.guild.id !== "512754921184034816") return;
     let avatar = member.user.avatarURL
     let embed = new Discord.RichEmbed()
         .setColor('RANDOM')
@@ -17,19 +17,19 @@ bot.on('guildMemberAdd', member => {
         .setTitle("** <a:Partness:506963369157197824> bem-vindo**")
         .addField('Bem vindo(a)!', `Bem vindo(a) ${member} Ao servidor biscoitinho lindo!`)
         .setTimestamp()
-    bot.channels.get('512626706138267648').send({embed})
+    bot.channels.get('512780664765022228').send({embed})
 
 });
 
 bot.on("guildMemberRemove", async member => {
-    if (member.guild.id !== "476923523617783808") return;
+    if (member.guild.id !== "512754921184034816") return;
     let avatar = member.user.avatarURL
     let embed = new Discord.RichEmbed()
         .setColor('RANDOM')
         .setThumbnail(avatar)
         .addField('Saida!', `Um biscoitinho saiu, o nick dele é ${member}, espero que ele volte.`)
         .setTimestamp()
-    bot.channels.get('512626706138267648').send({embed})
+    bot.channels.get('512780664765022228').send({embed})
 
 });
 
