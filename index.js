@@ -15,7 +15,7 @@ bot.on('guildMemberAdd', member => {
         .setColor('RANDOM')
         .setThumbnail(avatar)
         .setTitle("** <a:Partness:506963369157197824> bem-vindo**")
-        .addField('Bem vindo(a)!', `Bem vindo(a) ${member} Ao servidor biscoitinho lindo!`)
+        .addField('Bem vindo(a)!', `Bem vindo(a) ${member} Ao servidor cosmic seu lindo!`)
         .setTimestamp()
     bot.channels.get('512780664765022228').send({embed})
 
@@ -27,7 +27,7 @@ bot.on("guildMemberRemove", async member => {
     let embed = new Discord.RichEmbed()
         .setColor('RANDOM')
         .setThumbnail(avatar)
-        .addField('Saida!', `Um biscoitinho saiu, o nick dele é ${member}, espero que ele volte.`)
+        .addField('Saida!', `Um cosmiczinho saiu, o nick dele é ${member}, espero que ele volte.`)
         .setTimestamp()
     bot.channels.get('512780664765022228').send({embed})
 
