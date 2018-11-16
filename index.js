@@ -59,11 +59,11 @@ bot.on("message", async message => {
 
 bot.on('ready', () =>{
     let status = [
-        {name: '🍪 Ajuda?│ b!help', type: 'STREAMING', url: 'https://twitch.tv/biscoito'},
-        {name: 'biscoito para 270 pessoas 🍪', type: 'LISTENING'},
-        {name: '🍪 biscoitinhos', type: 'PLAYING'},
-        {name: 'os videos do SrBiscoito 🍪', type: 'WATCHING'},
-        {name: '🍪', type: 'WATCHING'},
+        {name: '🌌 DESENVOLVIDO POR Nitroo#4025', type: 'STREAMING', url: 'https://twitch.tv/biscoito'},
+        {name: '🌌', type: 'LISTENING'},
+        {name: '🌌 Jogando Estrelas para todos', type: 'PLAYING'},
+        {name: '🌌 Precisando de ajuda|c!help ', type: 'WATCHING'},
+        {name: '🌌 Convide seus amigos', type: 'WATCHING'},
       ];
       
       //STREAMING = Transmitindo
