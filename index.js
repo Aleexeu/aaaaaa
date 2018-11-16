@@ -61,7 +61,7 @@ bot.on('ready', () =>{
     let status = [
         {name: '🌌 DESENVOLVIDO POR Nitroo#4025', type: 'STREAMING', url: 'https://twitch.tv/biscoito'},
         {name: '🌌', type: 'LISTENING'},
-        {name: '🌌 Jogando Estrelas para todos', type: 'PLAYING'},
+        {name: '🌌 Estrelas para todos', type: 'PLAYING'},
         {name: '🌌 Precisando de ajuda|c!help ', type: 'WATCHING'},
         {name: '🌌 Convide seus amigos', type: 'WATCHING'},
       ];
